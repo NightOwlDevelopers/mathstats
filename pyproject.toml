@@ -1,0 +1,13 @@
+[project]
+name = "mathstats"
+version = "v1.0.0"
+description = "A Float Matrix Statistics CLI"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+mathstats = "mathstats.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
