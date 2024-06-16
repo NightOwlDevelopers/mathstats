@@ -1,0 +1,6 @@
+VERSION = "mathstats 1.0.0"
+DESCRIPTION = "Float Matrix Statistics CLI"
+STAT_HELP = "Statistic to compute (default: all)"
+AXIS_HELP = "Axis to compute statistics along (default: all)"
+INPUT_HELP = "Input file path (default: stdin)"
+OUTPUT_HELP = "Output file path (default: stdout)"
